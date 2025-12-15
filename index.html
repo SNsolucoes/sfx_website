@@ -1,0 +1,263 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="SFX App - Aplicativo de transporte coletivo conectando passageiros e motoristas entre pontos pré-definidos"
+    />
+    <meta
+      name="keywords"
+      content="transporte, carona, coletivo, SFX, mobilidade urbana"
+    />
+    <meta name="author" content="SFX App" />
+    <title>SFX App - Transporte Coletivo Inteligente</title>
+
+    <!-- Favicon -->
+    <link rel="icon" type="image/x-icon" href="assets/favicon.ico">
+
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- Font Awesome Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <!-- Stylesheet -->
+    <link rel="stylesheet" href="css/styles.css" />
+  </head>
+  <body>
+    <!-- Header / Navigation -->
+    <header class="header">
+      <div class="container">
+        <nav class="nav">
+          <a href="#inicio" class="nav-brand">
+            <img src="assets/logo_purple_back_white_font.png" alt="SFX App Logo" />
+            <span>SFX App</span>
+          </a>
+
+          <ul class="nav-links" id="navLinks">
+            <li><a href="#inicio">Início</a></li>
+            <li><a href="#sobre">Sobre</a></li>
+            <li><a href="#recursos">Recursos</a></li>
+            <li><a href="#contato">Contato</a></li>
+            <li><a href="termos.html">Termos de Uso</a></li>
+            <li><a href="privacidade.html">Política de Privacidade</a></li>
+          </ul>
+
+          <button
+            class="nav-toggle"
+            id="navToggle"
+            aria-label="Toggle navigation"
+          >
+            ☰
+          </button>
+        </nav>
+      </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section id="inicio" class="hero">
+        <div class="container">
+            <div class="hero-content">
+                <h1>Transporte Coletivo Inteligente</h1>
+                <p>Conectando passageiros e motoristas em rotas pré-definidas para uma mobilidade urbana mais eficiente e sustentável</p>
+                <div style="margin: var(--space-8) 0;">
+                    <a href="#recursos" class="btn btn-primary btn-large">Conheça Nossos Recursos</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="sobre" class="section">
+      <div class="container">
+        <div class="section-title scroll-animate">
+          <h2>Sobre o SFX App</h2>
+          <p>Revolucionando a forma como as pessoas se deslocam pela cidade</p>
+        </div>
+
+        <div class="scroll-animate">
+          <p
+            style="
+              text-align: center;
+              max-width: 800px;
+              margin: 0 auto;
+              font-size: var(--font-lg);
+              color: var(--color-gray-700);
+            "
+          >
+            O SFX App é um serviço de transporte que conecta passageiros
+            e motoristas através de corridas entre pontos de parada
+            pré-definidos. Passageiros podem escolher entre corridas compartilhadas
+            (mais econômicas) ou individuais. Uma forma prática e organizada de se 
+            deslocar pela cidade.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <!-- Features Section -->
+    <section
+      id="recursos"
+      class="section"
+      style="background: var(--color-gray-50)"
+    >
+      <div class="container">
+        <div class="section-title scroll-animate">
+          <h2>Recursos</h2>
+          <p>Uma solução completa para passageiros e motoristas</p>
+        </div>
+
+        <div class="features-grid">
+          <!-- Passenger Features -->
+          <div class="feature-card scroll-animate">
+            <div class="feature-icon"><i class="fas fa-hand-pointer"></i></div>
+            <h3>Solicite sua Corrida</h3>
+            <p><strong>Rápido e Fácil</strong></p>
+            <p>
+              Escolha seu ponto de embarque e destino, e solicite uma corrida
+              compartilhada em poucos toques.
+            </p>
+          </div>
+
+          <div class="feature-card scroll-animate">
+            <div class="feature-icon"><i class="fas fa-map-marker-alt"></i></div>
+            <h3>Pontos Estratégicos</h3>
+            <p><strong>Embarque Organizado</strong></p>
+            <p>
+              Pontos de parada pré-definidos em locais estratégicos da cidade.
+              Rotas otimizadas para maior eficiência.
+            </p>
+          </div>
+
+          <div class="feature-card scroll-animate">
+            <div class="feature-icon"><i class="fas fa-coins"></i></div>
+            <h3>Você Escolhe</h3>
+            <p><strong>Compartilhada ou Individual</strong></p>
+            <p>
+              Opte por corridas compartilhadas para economizar ou
+              individuais para mais conforto. Você decide.
+            </p>
+          </div>
+
+          <!-- Driver Features -->
+          <div class="feature-card scroll-animate">
+            <div class="feature-icon"><i class="fas fa-car"></i></div>
+            <h3>Receba Solicitações</h3>
+            <p><strong>Corridas na Sua Rota</strong></p>
+            <p>
+              Receba pedidos de passageiros que estão no seu trajeto.
+              Aceite as corridas que fazem sentido para você.
+            </p>
+          </div>
+
+          <div class="feature-card scroll-animate">
+            <div class="feature-icon"><i class="fas fa-users"></i></div>
+            <h3>Gestão Automática</h3>
+            <p><strong>O App Cuida de Tudo</strong></p>
+            <p>
+              O aplicativo gerencia automaticamente os assentos disponíveis.
+              Você só precisa focar na direção.
+            </p>
+          </div>
+
+          <div class="feature-card scroll-animate">
+            <div class="feature-icon"><i class="fas fa-wallet"></i></div>
+            <h3>Ganhos por Corrida</h3>
+            <p><strong>Aumente Sua Renda</strong></p>
+            <p>
+              Receba por cada passageiro transportado.
+              Múltiplos passageiros, múltiplos ganhos.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contato" class="section contact-section">
+      <div class="container">
+        <div class="contact-content scroll-animate">
+          <div class="section-title">
+            <h2>Entre em Contato</h2>
+            <p>Tem alguma dúvida ou sugestão? Estamos aqui para ajudar!</p>
+          </div>
+
+          <a
+            href="mailto:contato@sfx.app.br?subject=Solicitação de Informações - Serviço de Transporte&body=Olá equipe SFX App,%0D%0A%0D%0AGostaria de obter mais informações sobre o serviço de transporte coletivo.%0D%0A%0D%0AMeu nome:%0D%0AMeu interesse:%0D%0A%0D%0AObrigado!"
+            class="contact-email"
+          >
+            <i class="fas fa-envelope"></i> Entrar em contato
+          </a>
+        </div>
+      </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+      <div class="container">
+        <div class="footer-content">
+          <div class="footer-section">
+            <h4>SFX App</h4>
+            <p>
+              Conectando pessoas, otimizando trajetos e transformando a
+              mobilidade urbana.
+            </p>
+          </div>
+
+          <div class="footer-section">
+            <h4>Links Rápidos</h4>
+            <ul class="footer-links">
+              <li><a href="#inicio">Início</a></li>
+              <li><a href="#sobre">Sobre</a></li>
+              <li><a href="#recursos">Recursos</a></li>
+              <li><a href="#contato">Contato</a></li>
+            </ul>
+          </div>
+
+          <div class="footer-section">
+            <h4>Legal</h4>
+            <ul class="footer-links">
+              <li><a href="termos.html">Termos de Uso</a></li>
+              <li><a href="privacidade.html">Política de Privacidade</a></li>
+            </ul>
+          </div>
+
+          <div class="footer-section">
+            <h4>Contato</h4>
+            <ul class="footer-links">
+              <li>
+                <a href="mailto:contato@sfx.app.br">
+                  <i class="fas fa-envelope"></i> contato@sfx.app.br
+                </a>
+              </li>
+              <li>
+                <a href="https://www.instagram.com/appsaofelix/" target="_blank" rel="noopener noreferrer">
+                  <i class="fab fa-instagram"></i> @appsaofelix
+                </a>
+              </li>
+              <li style="margin-top: 0.5rem;">
+                <i class="fas fa-map-marker-alt"></i> Av Vale, 13, Res. Tocantins<br>
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Quadra 18, São Félix II<br>
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;68514-300, Marabá - PA
+              </li>
+            </ul>
+          </div>
+        </div>
+
+        <div class="footer-bottom">
+          <p>&copy; 2025 JRC SERRAO LOTACAO LTDA. Todos os direitos reservados.</p>
+        </div>
+      </div>
+    </footer>
+
+    <!-- JavaScript -->
+    <script src="js/main.js"></script>
+  </body>
+</html>
